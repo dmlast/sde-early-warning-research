@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sde-early-warning"
+version = "0.1.0"
+description = "Reproducible benchmark for local SDE identification and epidemic early-warning signals"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Dmitrii Lastovetskii"}]
+dependencies = [
+  "imbalanced-learn>=0.12",
+  "jupyter>=1.0",
+  "matplotlib>=3.8",
+  "nbconvert>=7.16",
+  "nbformat>=5.10",
+  "numpy>=1.26",
+  "openpyxl>=3.1",
+  "pandas>=2.2",
+  "scikit-learn>=1.4",
+  "scipy>=1.12",
+  "seaborn>=0.13",
+  "torch>=2.2",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

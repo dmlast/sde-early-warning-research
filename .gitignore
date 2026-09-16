@@ -1,0 +1,29 @@
+.DS_Store
+.cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+dist/
+build/
+*.egg-info/
+tmp/
+
+# Fonts are resolved from the operating system or the TeX distribution.
+report/fonts/
+
+# LaTeX intermediates; the reviewed PDF stays tracked.
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+
+# Report assets are regenerated from data by `make report`.
+report/figures/
+report/tables/
+report/generated_metrics.tex
+
+# Source workbooks and downloaded model weights are intentionally external.
+data/raw/
+weights/
