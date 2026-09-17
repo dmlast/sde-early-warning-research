@@ -25,6 +25,6 @@ report-assets:
 report: report-assets
 	mkdir -p .cache/tex
 	TEXMFVAR=.cache/tex xelatex -interaction=nonstopmode -halt-on-error \
-	  -jobname=local_sde_early_warning_report -output-directory=report report/main.tex
+	  -jobname=Lastovetskii_D_A_NIR_R4160 -output-directory=report report/main.tex
 	TEXMFVAR=.cache/tex xelatex -interaction=nonstopmode -halt-on-error \
-	  -jobname=local_sde_early_warning_report -output-directory=report report/main.tex
+	  -jobname=Lastovetskii_D_A_NIR_R4160 -output-directory=report report/main.tex
